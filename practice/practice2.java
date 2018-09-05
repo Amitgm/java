@@ -1,0 +1,23 @@
+class Practice2 
+{
+	public static void addition(int []a1)
+	{
+       
+       int len=a1.length;
+	   int res=0;
+		for(int i=0;i<len;i++)
+	{
+			res=res+a1[i];
+	}
+       System.out.println("result= "+res);
+	   
+}
+	
+		public static void main(String[] args) 
+	{
+			System.out.println("progam starts");
+		int[] ar1={20,30,50,60,70};
+		addition(ar1);
+		System.out.println("program ends");
+	}
+}
